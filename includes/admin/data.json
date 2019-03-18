@@ -1,0 +1,49 @@
+[
+
+
+  {
+    "URL": "http://3roundstones.com/",
+    "Organization": "3 Round Stones, Inc,",
+    "Location": "Washington, DC",
+    "Category": "Data/Techology",
+    "Description": "3 Round Stones produces a platform for publishing data on the Web. 3 Round Stones provides commercial support for the Callimachus Data Platform, used by the Fortune 2000 and US Government Agencies publishing and consuming data. Headquartered in Arlington, Virginia, we're seasoned entrepreneurs who are passionate about solving real world problems through open data and open Web standards."
+
+  },
+
+  {
+    "URL": "https://www.48factoring.com/",
+    "Organization": "48 Factoring Inc",
+    "Location": "Philadelphia, PA",
+    "Category": "Finance & Investment",
+    "Description":"The company mission is to provide finance to small business. We also provide financing to small business with bad credit too on the basis of future credit."
+  },
+
+  {
+    "URL": "http://www.adaptive.com/",
+    "Organization": "Adaptive",
+    "Location": " Irvine, CA",
+    "Category": "Business & Legal Services",
+    "Description": "Adaptive offers standards-based solutions that help organizations better align their valuable information by supporting specific management challenges including Data Governance, Data Quality, Metadata Management, Enterprise Architecture Management and IT Portfolio Management."
+  },
+  {
+    "URL": "http://www.accuweather.com/",
+    "Organization": "AccuWeather",
+    "Location": "State College, PA",
+    "Category": "Environment & Weather",
+    "Description": "AccuWeather provides local forecasts for everywhere in the United States and over two million locations worldwide. AccuWeather also provides our products and services to more than 175,000 paying customers in media, business, government and institutions. Our headquarters in State College, PA, is home to the greatest number of forecast meteorologists in one location anywhere in the world."
+  },
+  {
+    "URL": "http://www.allstate.com/",
+    "Organization": "AllState Insurance Group",
+    "Location": "Northbrook, IL",
+    "Category": "Insurance",
+    "Description": "The Allstate Corporation is a holding company for Allstate Insurance Company. The company’s business is conducted principally through Allstate Insurance Company, Allstate Life Insurance Company and their affiliates. It is engaged, principally in the United States, in the property-liability insurance, life insurance, retirement and investment product business."
+  },
+  {
+    "URL": "http://www.allianzusa.com/",
+    "Organization": "Allianz",
+    "Location": "New York, NY",
+    "Category": "Finance & Investment",
+    "Description": "Allianz Life Insurance Company is a provider of retirement solutions, including fixed and variable annuities and life insurance for individuals."
+  }
+]
