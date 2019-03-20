@@ -13,12 +13,12 @@ $ckan_results = json_decode(file_get_contents(__DIR__ . '/data.json'));
  */
 if ( ! defined( 'ABSPATH' ) ) exit; // Don't allow direct access
 ?>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <div class="container py-5">
     <!--<h1 class="display-2 text-center mb-5">List of Datasets</h1>-->
     <div class="row">
         <?php foreach ($ckan_results as $ckan_result):?>
-
 
             <?php
                 //$url = round($ckan_result->url)
@@ -41,3 +41,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Don't allow direct access
         <?php endforeach; ?>
     </div>
 </div>
+
+
+
+
+
+

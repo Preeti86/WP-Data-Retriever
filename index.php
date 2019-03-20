@@ -33,15 +33,8 @@ include ('includes/activate.php');
 include('includes/admin/menu_settings.php');
 include ('includes/admin/init.php');
 include('includes/admin/ckan-widgets.php');
-include('includes/admin/enqueue.php');
 include ('includes/front/enqueue.php');
-include ('utils/wpckan-api.php');
-//include ('utils/wpckan-options.php');
 include ('includes/init.php');
-include ('utils/wpckan-utils.php');
-include ('utils/wpckan-exceptions.php');
-//include ('includes/custom_post.php');
-//include ('includes/ckan-backend_Local_dataset.php');
 
 
 
@@ -51,18 +44,17 @@ add_action( 'init','dataset_init' );
 add_action( 'admin_init', 'dataset_admin_init' );
 add_action('admin_menu', 'ckan_settings_menu');
 add_action('register_widget','ckan_data_register_widgets');
-add_action('wp_ajax_ckan_articles_refresh_results', 'ckan_articles_refresh_results');
-add_action('wp_head', 'ckan_articles_enable_front_ajax');
+//add_action('wp_ajax_ckan_articles_refresh_results', 'ckan_articles_refresh_results');
+//add_action('wp_head', 'ckan_articles_enable_front_ajax');
 add_action( 'widgets_init', 'ckan_articles_register_widgets' );
 add_action('register_widget','ckan_data_register_widgets');
-//add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
-//add_filter( 'manage_edit-movie_columns', 'my_edit_movie_columns' ) ;
 
 
 
 
 //Shortcode
 add_shortcode('ckan_articles', 'ckan_articles_shortcode' );
+add_shortcode ('my_ajax_filter_search', 'my_ajax_filter_search_shortcode');
 
 
 

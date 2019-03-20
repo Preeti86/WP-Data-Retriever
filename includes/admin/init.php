@@ -2,7 +2,6 @@
 
 function dataset_admin_init() {
 
-    include ( 'enqueue.php');
     include ('ckan-api.php');
 
 

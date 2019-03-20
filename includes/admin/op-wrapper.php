@@ -56,11 +56,11 @@
                             <div class="handlediv" title="Click to toggle"><br></div>
                             <!-- Toggle -->
 
-                            <h2 class="handle"><span>Lets Get started</span>
+                            <h2 class="handle"><span></span>
                             </h2>
 
                             <div class="inside">
-                                <p>Below are the 5 datasets</p>
+                                <p>Below are the datasets</p>
                                 <ul class="ckan">
 
                                     <?php for ($i = 0; $i < 2; $i++): ?>

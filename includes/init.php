@@ -30,7 +30,7 @@ function dataset_init(){
 
     $args = array(
         'show_in_rest'                  => true, // Enable the REST API
-        'post_types'                    => array ('Dataset', 'groups', 'organization','harvesters'),
+        'post_types'                    => array ('Dataset', 'categories', 'organization','harvesters'),
         'posts_per_page'                => 10,
         'labels'                        => $labels,
         'description'                   => __('Description.', ' A plugin which allows users to retrieve data from styles api into wp admin adn display it on front end.'),
@@ -43,17 +43,34 @@ function dataset_init(){
         'exclude_from_search'           => true,
         'menu_icon'                     => 'dashicons-media-text', // Set icon
         'query_var'                     => true,
-        'rewrite'                       => array('slug' => 'Dataset'),
+        'rewrite'                       => array('slug' => 'Dataset', "with_format" => true),
         'capability_type'               => 'post',
         'has_archive'                   => true,
         'hierarchical'                  => false,
         'map_meta_cap'                  => true,
         'menu_position'                 => null,
-        'taxonomies'                    => array('catgeories','organization','groups', 'format'),
+        'taxonomies'                    => array('categories','organization', 'format'),
         'supports'                      => array('title','custom-fields','categories','post-attributes','revisions'),
 
 
 
+        register_taxonomy(
+            'categories',
+            'post',
+            array(
+                'label' => __( 'Categories' ),
+                'hierarchical' => false,
+                //'labels' => $labels,
+                'public' => true,
+                'show_in_nav_menus' => false,
+                'show_tagcloud' => false,
+                'show_admin_column' => true,
+                'rewrite' => array(
+                    'slug' => 'categories'
+                )
+            )
+        )
+        );
 
 
         register_taxonomy(
@@ -71,25 +88,7 @@ function dataset_init(){
                     'slug' => 'organization'
                 )
             )
-        )
 
-
-    );
-    register_taxonomy(
-        'groups',
-        'custom-post',
-        array(
-            'label' => __( 'Groups' ),
-            'hierarchical' => false,
-            //'labels' => $labels,
-            'public' => true,
-            'show_in_nav_menus' => false,
-            'show_tagcloud' => false,
-            'show_admin_column' => true,
-            'rewrite' => array(
-                'slug' => 'groups'
-            )
-        )
     );
 
     register_taxonomy(
@@ -111,11 +110,18 @@ function dataset_init(){
 
     register_post_type('Dataset', $args);
 
-
-
-
 }
 
+function custom_columns($columns){
+    $columns = array(
+      'cb' => '<input type="checkbox" />',
+      'title' => 'Title',
+        'categories' => 'Categories',
+        'thumb'=> __('Thumb'),
+        'date' => __('Date')
+    );
+    return $columns;
+}
 
 
 

@@ -82,7 +82,8 @@ function ckan_articles_shortcode($atts, $content = null){
 }
 
 
-function ckan_articles_refresh_results(){
+function ckan_articles_refresh_results()
+{
     $options = get_option('ckan_articles');
     $last_updated = $options['last_updated'];
 
@@ -101,53 +102,37 @@ function ckan_articles_refresh_results(){
         update_option('ckan_articles', $options);
 
     }
+
+
     die();
-}
-
-function ckan_articles_enable_front_ajax(){
     ?>
-
     <script>
-        var ajaxurl = '<?php echo admin_url('admin-ajax.php');?>';
+
+
+        $('#search').keydown(function () {
+            $.getJSON("data.json", function (datal) {
+                var search = $('#search').val();
+                var regex = new RegExp(search, 'i');
+                var output;
+                $.each(data, function (key, val) {
+                    output += "<tr>";
+                    output += "<td id='" + key + "'>" + val.id + "<td>";
+                    output += "<td id='" + key + "'>" + val.Category + "<td>";
+                    output += "<td id='" + key + "'>" + val.Organization + "<td>";
+                    output += "<td id='" + key + "'>" + val.Location + "<td>";
+                    output += "<td id='" + key + "'>" + val.Description + "<td>";
+                    output += "<td id='" + key + "'>" + val.URL + "<td>";
+                    output += "</tr>";
+
+                })
+                {
+
+                }
+            });
+
+        });
     </script>
 
     <?php
 
-
 }
-// shortcode for specific category.  Use on homepage (or wherever) to display a list of categories of posts
-function quick_info_shorty( $atts ) {
-    extract( shortcode_atts( array(
-        'id' => 17      // Add the *default category id
-    ), $atts ) );
-
-    $posts = get_posts( array(
-        'posts_per_page' => -1,
-        'post_status'    => 'publish',
-        'cat'       => $id,
-    ) );
-
-    $return = '';
-    $return .= '<div class="homepage_info_box">';
-
-    foreach ( $posts as $post ) {
-        $permalink = get_permalink($post->ID);
-        $return .= '<a class="item" href="' . $permalink . '">' . apply_filters( 'the_title', $post->post_title ) . '</a>';
-    }
-
-    $return .= '</div>';
-    return $return;
-}
-add_shortcode( 'homepage_info', 'quick_info_shorty' );
-// place in page: [homepage_info]   Simple & clean for clients
-// OR
-// [homepage_info id="x"]           (x = id of category/categories other than *default category id.
-
-
-
-
-
-
-
-
-
