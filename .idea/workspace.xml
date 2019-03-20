@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58ed1148-7180-412f-be43-0f57624c5357" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/extras/creator-template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/extras/recipe-options.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/extras/recipe-template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/delete.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/rateit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/star.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ckan-data.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ckan-data.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/activate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/ckan-api.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/ckan-api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/data_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/data_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/widgets-ckan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/front-end.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/front-end.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/menu_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/menu_settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/op-wrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/op-wrapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/widgets-fields.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/widgets-fields.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/datastore-api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/wpckan-api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/wpckan-exceptions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/wpckan-options.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/wpckan-utils.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets/related-datasets-widgets.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets/resource-by-cat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets/resources-widget.php" beforeDir="false" />
-    </list>
+    <list default="true" id="58ed1148-7180-412f-be43-0f57624c5357" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,15 +311,15 @@
       <workItem from="1553072103699" duration="969000" />
       <workItem from="1553078485932" duration="24000" />
       <workItem from="1553078528774" duration="41000" />
-      <workItem from="1553094161728" duration="3686000" />
+      <workItem from="1553094161728" duration="4289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120299000" />
+    <option name="totallyTimeSpent" value="120902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="645" y="218" width="1175" height="774" extended-state="0" />
+    <frame x="984" y="176" width="1175" height="774" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28255093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
