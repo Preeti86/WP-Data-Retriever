@@ -3,22 +3,22 @@ WordPress plugin to retrieve data from Open Source data portal platform.
 
 Description
 
-User can edit the custom meta box for posts that allowd the user to add related data.
+1) User can edit the custom meta box for posts that allowd the user to add related data.
 
-In order to use the information, this plugin uses shortcode[ckan_articles num_articles=2 display_images = 'off']
+2) In order to use the information, this plugin uses shortcode[ckan_articles num_articles=2 display_images = 'off']
 
-The shortcode has parameters like category, organisation & format
+3) The shortcode has parameters like category, organisation & format
 
-Widgets - basically expose the functionality of the shortcode for easy integration on WordPress site layout
+4) Widgets - basically expose the functionality of the shortcode for easy integration on WordPress site layout
 
-User can find out the plugin settings under the main settings menu, User need to get thier API key and the endpoint from thier ckan site.
+5) User can find out the plugin settings under the main settings menu, User need to get thier API key and the endpoint from thier ckan site.
 
 
 Installation
--Download or clone 
--Install dependencies with composer(http://getcomposer.org) composer install
--Activate the plugin through the plugin menu in WordPress
+1) Download or clone 
+2) Install dependencies with composer(http://getcomposer.org) composer install
+3) Activate the plugin through the plugin menu in WordPress
 
 Requirements
--PHP 7 >=7.2.0
--PHP Curl extension(in ubuntu sudo apt-get install php-curl
+1) PHP 7 >=7.2.0
+2) PHP Curl extension(in ubuntu sudo apt-get install php-curl
