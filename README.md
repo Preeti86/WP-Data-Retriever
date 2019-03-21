@@ -15,7 +15,7 @@ Description
 
 
 Installation
-1) Download or clone 
+1) Download or clone https://github.com/Preeti86/WP-Data-Retriever.git
 2) Install dependencies with composer(http://getcomposer.org) composer install
 3) Activate the plugin through the plugin menu in WordPress
 
