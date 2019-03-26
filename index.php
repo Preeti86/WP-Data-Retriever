@@ -18,7 +18,7 @@ require 'slugify/vendor/autoload.php';
 
 
 if( !function_exists('add_action') ){
-    die("Hi there! I'm just a plugin, not much much I can do when called directly." );
+    die("Hi there! I'm just a plugin, not much I can do when called directly." );
 }
 
 // Setup
